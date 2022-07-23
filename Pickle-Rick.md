@@ -1,4 +1,4 @@
->Link to the room : 
+>Link to the room : https://tryhackme.com/room/picklerick
 
 
 >This is the http page for the machine! :-
@@ -39,7 +39,7 @@
 
 >Why not find login panels in the web?, Lets do it.
 >
-![Screenshot 2022-07-22 202929](https://user-images.githubusercontent.com/90099173/180499980-c0419c5e-9a7a-45f8-9961-2fed28e5e9de.png)
+>![Screenshot 2022-07-22 202929](https://user-images.githubusercontent.com/90099173/180499980-c0419c5e-9a7a-45f8-9961-2fed28e5e9de.png)
 >
 >Great so we got an login panel
 >
@@ -47,30 +47,35 @@
 
 >Lets use the credentials we got earlier!
 >![Screenshot 2022-07-22 231525](https://user-images.githubusercontent.com/90099173/180499990-a66c2b86-21a5-4733-b4a9-af18142e4420.png)
+>
 >Great so now we have command line interface lol.
-![Screenshot 2022-07-22 231602](https://user-images.githubusercontent.com/90099173/180499992-fcbed99f-cbeb-49a3-8361-d592674f1582.png)
-
+>![Screenshot 2022-07-22 231602](https://user-images.githubusercontent.com/90099173/180499992-fcbed99f-cbeb-49a3-8361-d592674f1582.png)
+>
 >Lets ls quickly!
 ![Screenshot 2022-07-22 231906](https://user-images.githubusercontent.com/90099173/180499995-b94f9a8b-99af-4d52-aa1b-f0c9ca7a023b.png)
 >Woah!, lets try to access it via browser as its in the same directory!
 >
 >![Screenshot 2022-07-22 232114](https://user-images.githubusercontent.com/90099173/180500001-f39ba826-ef86-4225-8446-bac36c824ba3.png)
->[Screenshot 2022-07-22 232204](https://user-images.githubusercontent.com/90099173/180500005-fc34560f-b6af-4b77-bde3-0a23b7ab16e8.png)
+>![Screenshot 2022-07-22 232204](https://user-images.githubusercontent.com/90099173/180500005-fc34560f-b6af-4b77-bde3-0a23b7ab16e8.png)
 >Great!
 >
 >Lets check clue.txt now.
 
 >![Screenshot 2022-07-22 232349](https://user-images.githubusercontent.com/90099173/180500011-973f0cf7-88e4-4fb6-a2dc-8f353ed27b0a.png)
+>
 >Ok so basically we'll need a shell in order to navigate through filesystem effeciently!
 >
 >We have a good resource for shells : gtfobins.github.io
 >
 >![Screenshot 2022-07-22 233105](https://user-images.githubusercontent.com/90099173/180500016-777f3b7e-55fa-4c5d-b37f-dfca22c1b7f8.png)
->
+
+
 >I just modified it little bit, to make it short and easy!
 >First run the netcat listener to start listening for the reverse shell in the attacker machine! 
->![Screenshot 2022-07-22 233347](https://user-images.githubusercontent.com/90099173/180500025-20b5296a-eb39-4dfe-9251-5e179c17ea00.png)
 >
+>![Screenshot 2022-07-22 233347](https://user-images.githubusercontent.com/90099173/180500025-20b5296a-eb39-4dfe-9251-5e179c17ea00.png)
+
+
 >Now run the payload in the command pannel.
 >
 >![Screenshot 2022-07-22 233527](https://user-images.githubusercontent.com/90099173/180500029-0fd0293c-d576-4857-a21d-17f4c0212a07.png)
